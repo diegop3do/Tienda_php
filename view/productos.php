@@ -20,7 +20,9 @@
 </header>
 
 <body>
-    <select name="tienda" id="select_list"></select>
+    <select class="form-select" name="tienda" id="select_list"></select>
+    <br>
+    <br>
     <table class="table table-striped-columns text-center" id="table-producto">
         <thead>
             <tr>
@@ -66,7 +68,7 @@
             <label for="exampleInputEmail1" class="form-label">Imagen</label>
             <input type="text" class="form-control" id="imagenProducto" aria-describedby="emailHelp">
         </div>
-        <input type="button" class="btn btn-primary" id="guardar-producto">Enviar</input>
+        <input type="button" class="btn btn-success" id="guardar-producto" value="Crear"></input>
     </form>
         <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
         <script src="../js/productos.js"></script>

@@ -39,7 +39,7 @@
             <label for="exampleInputPassword1" class="form-label">fecha de apertura</label>
             <input type="date" class="form-control" id="fechaApertura">
         </div>
-        <input type="button" class="btn btn-primary" id="guardar_tienda">Enviar</input>
+        <input type="button" class="btn btn-success" id="guardar_tienda" value="Crear"></input>
     </form>
 
         <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
