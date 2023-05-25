@@ -10,9 +10,8 @@
 <header>
     <nav class="navegador">
         <ul>
-            <a href="index.php">Productos</a>
+            <a href="productos.php">Productos</a>
             <a href="tiendas.php">Tiendas</a>
-            <a href="./view/crear_tienda.php">Crear tiendas</a>
         </ul>
     </nav>
 </header>

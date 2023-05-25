@@ -22,7 +22,7 @@
 
         public function insert_tienda($Nombre, $Fecha_de_apertura){
             parent::conectar();
-            $sql = "INSERT INTO tienda (Id, Nombre, Fecha_de_apertura) VALUES (NULL, ?, ?);";
+            $sql = "INSERT INTO tienda (Id, Nombre, Fechas_de_apertura) VALUES (NULL, ?, ?);";
             $consulta = $this->conexion->prepare($sql);
             $consulta->bindValue(1, $Nombre);
             $consulta->bindValue(2, $Fecha_de_apertura);
